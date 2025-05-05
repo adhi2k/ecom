@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Product = require('./models.Product');
 const products = require('./products.json');
 
-mongoose.connect('mongodb://localhost:27017/ecommerce', {
+mongoose.connect('const uri = "mongodb+srv://testadhithya:nmhLqmL268BpMRv0@cluster0.fosb8wj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
