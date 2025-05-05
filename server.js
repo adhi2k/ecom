@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const productRoutes = require('./routes.products');
 
 const app = express();
-mongoose.connect('mongodb://localhost:27017/ecommerce');
+const uri = "mongodb+srv://testadhithya:nmhLqmL268BpMRv0@cluster0.fosb8wj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 app.use('/api/products', productRoutes);
 
